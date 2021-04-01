@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyRecyclerView</string>
+    <string-array name="titles">
+        <item>App</item>
+        <item>Batch</item>
+        <item>Clone</item>
+        <item>Debug</item>
+        <item>Enum</item>
+        <item>Follow</item>
+    </string-array>
+    <string-array name="Subtitles">
+        <item>Tirupathi</item>
+        <item>Kurnool</item>
+        <item>Vizag</item>
+        <item>Vijayawada</item>
+        <item>Amalapuram</item>
+        <item>Kadapa</item>
+    </string-array>
+</resources>
