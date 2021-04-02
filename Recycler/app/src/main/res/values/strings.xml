@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recycler</string>
+    <string-array name="Title">
+        <item>BTS</item>
+        <item>Black Pink</item>
+        <item>EXO</item>
+        <item>GOT7</item>
+        <item>ITZY</item>
+        <item>MAMAMOO</item>
+        <item>TWICE</item>
+        <item>NCT</item>
+    </string-array>
+    <string-array name="Leader">
+        <item>RM</item>
+        <item>LISA</item>
+        <item>KAI</item>
+        <item>JONGHYUN</item>
+        <item>IRENE</item>
+        <item>HWASA</item>
+        <item>DAHYUN</item>
+        <item>JONGIN</item>
+    </string-array>
+</resources>
