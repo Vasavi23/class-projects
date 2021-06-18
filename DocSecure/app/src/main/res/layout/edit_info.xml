@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/userpage"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="U P D A T E"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Update Title"
+        android:id="@+id/uptitle"
+        android:singleLine="true"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Update Password"
+        android:id="@+id/uppass"
+        android:singleLine="true"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/update"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="U P D A T E"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:backgroundTint="#058103"
+            android:layout_marginRight="15dp"
+            style="@style/Widget.MaterialComponents.Button"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_marginLeft="4dp"
+            android:layout_height="wrap_content"
+            android:text="C A N C E L"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:backgroundTint="#FF5722"
+            style="@style/Widget.MaterialComponents.Button"
+            />
+    </LinearLayout>
+</LinearLayout>

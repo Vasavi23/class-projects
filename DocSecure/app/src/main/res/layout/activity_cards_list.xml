@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CardsList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:text="A A D H A A R   C A R D"
+            android:fontFamily="serif"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:rippleColor="@color/green_500"
+            android:textStyle="bold"
+            android:id="@+id/adhaar"
+            android:backgroundTint="#DBF5FA"
+            android:textColor="#024A85"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:text="P A N  C A R D"
+            android:fontFamily="serif"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:rippleColor="@color/green_500"
+            android:textStyle="bold"
+            android:id="@+id/pan"
+            android:backgroundTint="#FAECD7"
+            android:textColor="#C33204"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:text="D R I V I N G   L I C E N C E"
+            android:fontFamily="serif"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:rippleColor="@color/green_500"
+            android:textStyle="bold"
+            android:id="@+id/driving"
+            android:backgroundTint="#CFF8D0"
+            android:textColor="#026A07"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:text="R C    B O O K"
+            android:fontFamily="serif"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:rippleColor="@color/green_500"
+            android:textStyle="bold"
+            android:id="@+id/rc"
+            android:backgroundTint="#DBF5FA"
+            android:textColor="#024A85"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:text="R A T I O N  C A R D"
+            android:fontFamily="serif"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:rippleColor="@color/green_500"
+            android:textStyle="bold"
+            android:id="@+id/ration"
+            android:backgroundTint="#FAECD7"
+            android:textColor="#C33204"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:text="C E R T I F I C A T E S"
+            android:fontFamily="serif"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:rippleColor="@color/green_500"
+            android:textStyle="bold"
+            android:id="@+id/certificate"
+            android:backgroundTint="#CFF8D0"
+            android:textColor="#026A07"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:text="I D  C A R D S"
+            android:fontFamily="serif"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:rippleColor="@color/green_500"
+            android:textStyle="bold"
+            android:id="@+id/id"
+            android:backgroundTint="#DBF5FA"
+            android:textColor="#024A85"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:text="C R E D I T / D E B I T   C A R D S"
+            android:fontFamily="serif"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:rippleColor="@color/green_500"
+            android:textStyle="bold"
+            android:id="@+id/atm"
+            android:backgroundTint="#FAECD7"
+            android:textColor="#C33204"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:text="P A S S P O R T"
+            android:fontFamily="serif"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:rippleColor="@color/green_500"
+            android:textStyle="bold"
+            android:id="@+id/passport"
+            android:backgroundTint="#CFF8D0"
+            android:textColor="#026A07"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:text="P A S S W O R D S"
+            android:fontFamily="serif"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:rippleColor="@color/green_500"
+            android:textStyle="bold"
+            android:id="@+id/Passwords"
+            android:backgroundTint="#DBF5FA"
+            android:textColor="#024A85"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_height="wrap_content"
+            android:text="O T H E R S"
+            android:fontFamily="serif"
+            android:layout_marginTop="25sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:rippleColor="@color/green_500"
+            android:textStyle="bold"
+            android:id="@+id/other"
+            android:backgroundTint="#F4DBFA"
+            android:textColor="#660477"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
